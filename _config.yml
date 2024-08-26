@@ -108,7 +108,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: default # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -165,7 +165,7 @@ analytics:
 
 ## => Clipboard
 ##############################
-clipboard: false
+clipboard: true # false (default), true
 
 ## => Build
 ##############################
@@ -223,3 +223,20 @@ plugins:
   - jekyll-sitemap
   - jemoji
   - jekyll-remote-theme
+
+# <script src="https://giscus.app/client.js"
+#         data-repo="chaoschan1989/chaoschan1989"
+#         data-repo-id="R_kgDOMoUyFw"
+#         data-category="Announcements"
+#         data-category-id="DIC_kwDOMoUyF84Ch8St"
+#         data-mapping="title"
+#         data-strict="0"
+#         data-reactions-enabled="1"
+#         data-emit-metadata="0"
+#         data-input-position="top"
+#         data-theme="preferred_color_scheme"
+#         data-lang="zh-CN"
+#         data-loading="lazy"
+#         crossorigin="anonymous"
+#         async>
+# </script>
