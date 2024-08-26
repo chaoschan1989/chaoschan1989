@@ -3,20 +3,23 @@
 *.diff
 *.patch
 *.bak
+**/.DS_Store
 .DS_Store
 *.swp
 *.swo
 *.log
 *.log.*
 
-/.vscode/
+.vscode/
 
 node_modules/
 .sass-cache/
 
-/.bundle/
+# .bundle/
+/vendor/
 /vendor/bundle
 *.gem
+.idea/
 
 yarn.lock
 package-lock.json
