@@ -206,7 +206,7 @@ defaults:
       type: posts
     values:
       layout: article
-      author: zorch
+      author: chaos
       sharing: true
       license: true
       aside:
