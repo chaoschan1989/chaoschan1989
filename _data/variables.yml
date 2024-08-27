@@ -1,17 +1,16 @@
 default:
   text_skin: default
   highlight_theme: default
-  lang: zh
+  lang: en
   paths:
     root: /
     home: /
-    archive:  /archive/
+    archive:  /archive.html
     rss:  /feed.xml
-  mathjax: true
-  mathjax_autoNumber: true
-  mermaid: true
-  chart: true
-  clipboard: false
+  mathjax: false
+  mathjax_autoNumber: false
+  mermaid: false
+  chart: false
   toc:
     selectors: 'h1,h2,h3'
   sources: bootcdn
@@ -51,8 +50,7 @@ sources:
       css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
     valine: 'https://unpkg.com/valine/dist/Valine.min.js' # bootcdn not available
     mathjax: 'https://cdn.bootcss.com/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML'
-    mermaid: 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js'
-    clipboard: 'https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js'
+    mermaid: 'https://cdn.bootcss.com/mermaid/8.0.0-rc.8/mermaid.min.js'
   unpkg:
     font_awesome: 'https://use.fontawesome.com/releases/v5.15.1/css/all.css'
     jquery: 'https://unpkg.com/jquery@3.3.1/dist/jquery.min.js'
@@ -63,5 +61,4 @@ sources:
       css: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.css'
     valine: 'https//unpkg.com/valine/dist/Valine.min.js'
     mathjax: 'https://unpkg.com/mathjax@2.7.4/unpacked/MathJax.js?config=TeX-MML-AM_CHTML'
-    mermaid: 'https://unpkg.com/mermaid@10.2.0/dist/mermaid.min.js'
-    clipboard: 'https://unpkg.com/clipboard@2/dist/clipboard.min.js'
+    mermaid: 'https://unpkg.com/mermaid@8.0.0-rc.8/dist/mermaid.min.js'
