@@ -18,7 +18,7 @@
 ##############################
 
 remote_theme: kitian616/jekyll-TeXt-theme # Jekyll Remote Theme, see https://github.com/benbalter/jekyll-remote-theme for more information.
-text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
+text_skin: dark # "default" (default), "dark", "forest", "ocean", "chocolate", "orange"
 highlight_theme: tomorrow-night # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
@@ -39,7 +39,7 @@ author:
   type      : person # "person" (default), "organization"
   name      : Chaos
   url       : 
-  avatar    : assets/images/logo/favicon-32x32.png # path or url of avatar image (square)
+  avatar    : assets/android-chrome-256x256.png # path or url of avatar image (square)
   bio       : I am an amazing person.
   email     : 421153277@qq.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
