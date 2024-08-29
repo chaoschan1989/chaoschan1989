@@ -4,7 +4,7 @@ tags: test
 article_header:
   type: cover
   image:
-    src: /screenshot.jpg
+    src: /images/screenshot.jpg
 
 author: Chaos
 show_author_profile: true

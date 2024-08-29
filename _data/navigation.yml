@@ -1,4 +1,14 @@
 header:
+
+  - titles:
+      en      : &EN       Home
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      zh-Hans : &ZH_HANS  主页
+    url: /index.html
+
   - titles:
       # @start locale config
       en      : &EN       Archive
@@ -53,21 +63,18 @@ header:
 
   - title: GitHub
     url: https://github.com/chaoschan1989
+
 sidebar:
-  - title: About
-    children:
-      - title: About
-        url: /about.html
-  - title: Archive
-    children:
-      - title: Archive
-        url: /archive.html
-  - title: GitHub
+  - title: Catagories
     children:
       - title: GitHub
         url: https://github.com/chaoschan1989
-
-
+  - title: Render
+    children:
+    - title: About
+      url: /about.html
+    - title: Archive
+      url: /archive.html
 # docs-en:
 #   - title: AAA
 #       url: /docs/en/configuration
