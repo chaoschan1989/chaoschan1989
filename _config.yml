@@ -29,7 +29,7 @@ description: > # this means to ignore newlines until "Language & timezone"
 
 ## => Language and Timezone
 ##############################
-lang: # the language of your site, default as "en"
+lang: zh # the language of your site, default as "en"
 timezone: # see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for the available values
 
 
@@ -121,7 +121,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: false #gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -150,7 +150,7 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: leancloud # false (default), "leancloud", "custom"
+  provider: false #leancloud # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
@@ -162,7 +162,7 @@ pageview:
 ## => Search
 ##############################
 search:
-  provider: default # "default" (default), false, "google", "custom"
+  provider: custom # "default" (default), false, "google", "custom"
 
   ## Google Custom Search Engine
   google:
@@ -172,19 +172,24 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: google # false (default), "google", "custom"
+  provider: # false (default), "google", "custom"
 
   ## Google Analytics
   google:
     tracking_id : G-R5PMJKCKZE # Google Analytics id for the site
     anonymize_ip: true # Anonymize IP tracking for Analytics
 
+## => Clipboard
+##############################
+clipboard: false
 
 ## => Build
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : date
+# permalink   : date
+# 添加category内容
+permalink: /:categories/:title/
 
 exclude:
   - CHANGELOG.md
@@ -203,6 +208,13 @@ exclude:
   - /screenshots
   - /test
   - /vendor
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 defaults:
   - scope:
@@ -228,4 +240,4 @@ plugins:
   # - jekyll-sitemap
   - jekyll-sitemap
   - jemoji
-  # - jekyll-remote-theme
+  - jekyll-remote-theme

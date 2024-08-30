@@ -1,2 +1,5 @@
-# [Blog](https://chaoschan1989.github.io/chaoschan1989/)
+# Intro
+
+My GitHub Pages Blog powered by [Jekyll](https://github.com/jekyll/jekyll) 
+and [jekyll-TeXt-theme](https://github.com/kitian616/jekyll-TeXt-theme).
 

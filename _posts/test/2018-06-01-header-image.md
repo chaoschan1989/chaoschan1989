@@ -8,8 +8,8 @@ article_header:
 
 author: Chaos
 show_author_profile: true
-sidebar:
-  nav: sidebar
+# sidebar:
+#   nav: sidebar
 ---
 
 
