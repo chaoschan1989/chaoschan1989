@@ -240,4 +240,4 @@ plugins:
   # - jekyll-sitemap
   - jekyll-sitemap
   - jemoji
-  - jekyll-remote-theme
+  # - jekyll-remote-theme
